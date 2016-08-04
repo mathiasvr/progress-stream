@@ -101,7 +101,7 @@ Sets how often progress events is emitted in ms. If omitted then defaults to emi
 
 ### speed(integer)
 
-Sets how long the speedometer needs to calculate the speed. Defaults to 5 sec.
+Sets how long the speedometer needs to calculate the speed in seconds. Defaults to 5.
 
 ### length(integer)
 

@@ -11,7 +11,7 @@ module.exports = function(options, onprogress) {
 	var transferred = options.transferred || 0;
 	var nextUpdate = Date.now()+time;
 	var delta = 0;
-	var speed = speedometer(options.speed || 5000);
+	var speed = speedometer(options.speed || 5);
 	var startTime = Date.now();
 
 	var update = {
